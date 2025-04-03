@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" />
+    <meta name="description" content="Phikolomzi Gugwana – Data Scientist Portfolio">
+    <meta name="author" content="Phikolomzi Gugwana">
+
     <title>Phikolomzi Gugwana</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -69,6 +73,9 @@
         .social-icons a[aria-label="Medium"]:hover {
             color: orange; /* Blog - Orange */
         }
+        .social-icons a[aria-label="Youtube"]:hover {
+            color: red !important; /* Blog - Orange */
+        }
         .divider {
             width: 80%;
             height: 2px;
@@ -115,19 +122,37 @@
             color: #555;
             margin-bottom: 4px;
         }
+        .download-btn {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 1px;
+    transition: background-color 0.3s ease;
+}
+.download-btn:hover {
+    background-color: #0056b3;
+}
+
     </style>
     
 </head>
 <body>
     <div class="container">
-        <img src="cover-photo-four.jpeg" alt="Profile Picture">
         <h2>Phikolomzi Gugwana</h2>
         <h3>Data Scientist</h3>
         <p>Cell: +27 72 192 8910 | Email: ggwphi001@myuct.ac.za</p>
+        <a href="Phikolomzi-Gugwana-CV.pdf" download class="download-btn">Download CV</a>
+
         <div class="social-icons">
-            <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/phikolomzi-gugwana-b04911355/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/gugwana-phikolomzi" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
             <a href="https://medium.com/@ggwphi001" target="_blank" aria-label="Medium"><i class="fas fa-blog"></i></a>
+            <a href="https://www.youtube.com/@438Analytica" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
         </div>
         <div class="divider"></div>
         <div class="timeline">
@@ -135,53 +160,63 @@
                 <div class="timeline-item">
                     <img src="old-mutual-logo.png" alt="Education Image">
                     <div>
-                        <h4>2023 - Present</h4>
-                        <p><strong>Snr Data Analyst - Old Mutual (Customer Administration Services)</strong></p>
-                        <p>I was asked to return to Old Mutual to establish a Business Intelligence capability in preparation for, and following, the Two-Pot pension fund legislation changes. I lead a team that builds and maintains reporting dashboards on AWS QuickSight and ETL pipelines using AWS native tools, including S3, Glue, DataSync, and Redshift</p>
-
-                    </div>
+                        <h4>2023 – Present</h4>
+                        <p><strong>Senior Data Analyst – Old Mutual (Customer Administration Services)</strong></p>
+                        <p>
+                            Re-engaged by Old Mutual to establish a modern Business Intelligence capability ahead of South Africa’s Two-Pot pension reform. I lead a data team delivering real-time insights through AWS QuickSight dashboards and scalable ETL pipelines. Using AWS-native tools — including S3, Glue, DataSync, and Redshift — we’ve built a robust analytics platform that supports compliance, operational readiness, and strategic decision-making across the business.
+                        </p>
+                      </div>
                 </div>
                 <div class="timeline-item">
                     <img src="woolworths-logo.png" alt="Education Image">
                     <div>
-                        <h4>2022 - 2023</h4>
-                        <p><strong>Data Scientist - Woolworths (Data and Analytics Team)</strong></p>
-                        <p>I was part of the Markdown Optimization project, we built a machine learning model that predicts product demand for retail goods during the clearance season and determines the optimal price to maximize profits. The project was developed by Woolworths in collaboration with an external partner, and I served as the main data scientist on the Woolworths side. I developed part of the codebase using Python and PySpark. Additionally, I gained experience in deploying and productionizing code natively on AWS.</p>
-
-                    </div>
+                        <h4>2022 – 2023</h4>
+                        <p><strong>Data Scientist – Woolworths (Data & Analytics Team)</strong></p>
+                        <p>
+                          Lead Data Scientist on the Markdown Optimization project — a machine learning initiative to forecast demand and optimize pricing for clearance stock. Collaborating with an external partner, I co-developed the model using Python and PySpark, driving profit-maximizing decisions across retail categories. I also gained hands-on experience deploying and productionizing code directly on AWS using native services.
+                        </p>
+                      </div>
+                      
                 </div>
                 <div class="timeline-item">
                     <img src="old-mutual-logo.png" alt="Education Image">
                     <div>
-                        <h4>2020 - 2022</h4>
-                        <p><strong>Data Scientist - Old Mutual (Data and Analytics Team)</strong></p>
-                        <p>Successfully developed and deployed into production:</p>
+                        <h4>2020 – 2022</h4>
+                        <p><strong>Data Scientist – Old Mutual (Data & Analytics Team)</strong></p>
+                        <p>
+                          Delivered production-ready machine learning solutions that improved claims and operations forecasting:
+                        </p>
                         <ul>
-                            <li><strong>Regression Model:</strong> Designed to predict COVID-19-related death claims with high accuracy.</li>
-                            <li><strong>Binary Classification Model:</strong> Implemented to classify claims based on resolution complexity, identifying those that will take longer versus those that are easier to resolve.</li>
-                            <li><strong>Time Series Model: </strong>Developed to forecast daily email volumes, enabling proactive management of resources and response times.</li>
+                          <li><strong>COVID-19 Claims Regression Model:</strong> Predicted pandemic-related death claims with high accuracy to support financial risk planning.</li>
+                          <li><strong>Claims Triage Classifier:</strong> Binary classification model to flag complex claims, accelerating simple-case resolutions and streamlining workflows.</li>
+                          <li><strong>Email Volume Forecasting:</strong> Time series model that predicted daily support volumes, enabling proactive resource and SLA management.</li>
                         </ul>
-                    </div>
+                      </div>
+                      
                 </div>
                 <div class="timeline-item">
                     <img src="old-mutual-logo.png" alt="Education Image">
                     <div>
-                        <h4>2019 - 2020</h4>
-                        <p><strong>Process Analyst - Old Mutual (Customer Administration Services)</strong></p>
-                        <p>This role involved negotiating SLAs with customer service team leaders, developing new processes and SLAs, training consultants and team leaders on these processes, and designing new workflows.</p>
-                    </div>
+                        <h4>2019 – 2020</h4>
+                        <p><strong>Process Analyst – Old Mutual (Customer Administration Services)</strong></p>
+                        <p>
+                          Drove operational efficiency by designing and implementing streamlined workflows and service-level agreements (SLAs). Collaborated with team leaders to negotiate SLAs, introduced new processes to improve turnaround times, and led training for consultants and team leads to ensure consistent adoption across customer service operations.
+                        </p>
+                      </div>
+                      
                 </div>
                 <div class="timeline-item">
                     <img src="engen-logo.jpg" alt="Work Experience Image">
                     <div>
-                        <h4>2017 - 2019</h4>
-                        <p><strong>Graduate Trainee - Engen</strong></p>
+                        <h4>2017 – 2019</h4>
+                        <p><strong>Graduate Trainee – Engen</strong></p>
                         <ul>
-                            <li><strong>Finance: </strong> Conducted credit risk analysis for banks and countries in sub-Saharan Africa.</li>
-                            <li><strong>Business Intelligence:</strong> Received training in SAP Data Warehousing products and worked on the Azure cloud platforms.</li>
-                            <li><strong>Advanced Analytics:</strong> Developed a time-series forecasting model to predict future fuel demand for the Supply Chain division. Conducted A/B testing to evaluate the accuracy of the existing demand planning tool and process.</li>
+                          <li><strong>Finance:</strong> Performed credit risk analysis across banks and sovereign entities in sub-Saharan Africa, supporting strategic lending and exposure decisions.</li>
+                          <li><strong>Business Intelligence:</strong> Trained in SAP Data Warehousing and contributed to BI projects using Azure cloud services.</li>
+                          <li><strong>Advanced Analytics:</strong> Built a time-series model to forecast national fuel demand, improving supply chain planning. Led A/B testing to benchmark and enhance the accuracy of existing demand planning tools.</li>
                         </ul>
-                    </div>
+                      </div>
+                      
                 </div>
                 <!-- Divider for separation -->
                 <div class="divider"></div>
